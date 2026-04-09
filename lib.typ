@@ -20,7 +20,7 @@
   author-first-name: "Сергей Викторович",
   author-last-name: "Ильев",
   author-initials: "С.В.",
-  title: [\Влияние рабочих параметров на характеристики \ сегнетоэлектрических полевых транзисторов топологии 1Т-1С],
+  title: [Влияние рабочих параметров на характеристики \ сегнетоэлектрических полевых транзисторов \ топологии 1Т-1С],
   udk: "xxx.xxx", // Диссертация, УДК
   specialty-number: "11.04.04",
   specialty-title: "Электроника и наноэлектроника",
@@ -36,7 +36,8 @@
   supervisor-initials: "А.А.",
   supervisor-regalia: "к.ф.-м.н., доцент",
   supervisor-regalia-short: "уч. ст., уч. зв.",
-  font-type: "Times New Roman",
+  // font-type: "Times New Roman",
+  font-type: "New Computer Modern",
   font-size: 14pt,
   link-color: blue.darken(60%),
   languages: (),
