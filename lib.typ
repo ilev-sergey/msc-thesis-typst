@@ -148,7 +148,7 @@
     logo, "На правах рукописи",
   )
   set text(size: 16pt)
-  v(1em)
+  v(4em)
   author-name // ФИО автора
   v(1em)
   [*#title*] // Название работы
@@ -168,7 +168,7 @@
   supervisor-regalia
   v(0em)
   supervisor-name
-  v(0em)
+  v(2em)
   set align(center)
   [#city -- #year]
   set align(left)
