@@ -7,7 +7,7 @@
     rust: (name: "Rust", icon: icon(image("images/brand-rust.svg")), color: rgb("#CE412B")),
     python: (name: "Python", icon: icon(image("images/brand-python.svg")), color: rgb("#3572A5")),
   ),
-  logo: image("./images/logo.svg", width: 50%),
+  logo: image("./images/logo.pdf", width: 100%),
 )
 
 // Основные части документа
