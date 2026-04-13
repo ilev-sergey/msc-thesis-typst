@@ -62,6 +62,8 @@
     hyphenate: false,
   )
 
+  show math.equation: set text(font: "New Computer Modern")
+
   // Установка свойств страницы
   set page(
     margin: (top: 2cm, bottom: 2cm, left: 2.5cm, right: 1cm), // размер полей (ГОСТ 7.0.11-2011, 5.3.7)
