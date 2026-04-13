@@ -3,6 +3,7 @@
 #import "@preview/tablex:0.0.8": *
 #import "@preview/physica:0.9.3": *
 // #import "@preview/indenta:0.0.3": fix-indent // Temporarily disabled - incompatible with current Typst version
+#import "@preview/chemformula:0.1.2": ch
 #import "./glossarium.typ": *
 
 // Счетчики
