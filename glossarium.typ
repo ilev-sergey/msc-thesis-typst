@@ -36,7 +36,7 @@
     let textLink = if display != none {
       [#display]
     } else if (is_first or long == true) and entlong != [] and entlong != "" and long != false {
-      [#entry.short (#entlong)]
+      [#entlong (#entry.short)]
     } else {
       [#entry.short]
     }
