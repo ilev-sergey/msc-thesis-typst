@@ -1,7 +1,7 @@
 #import "@preview/unify:0.7.1": *
 // #import "@preview/codly:1.0.0": * // Temporarily disabled - incompatible with current Typst version
-#import "@preview/tablex:0.0.8": *
-#import "@preview/physica:0.9.3": *
+#import "@preview/tablex:0.0.9": *
+#import "@preview/physica:0.9.8": *
 #import "@preview/chemformula:0.1.2": ch
 #import "./glossarium.typ": *
 
