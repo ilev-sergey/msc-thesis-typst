@@ -1,6 +1,5 @@
 #import "../lib.typ": *
 #part_count.step() // Обновление счетчика разделов
-// #show: fix-indent() // Disabled - fix-indent incompatible with current Typst version
 
 = Длинное название главы, в которой мы смотрим на примеры того, как будут верстаться изображения и списки <ch2>
 == Одиночное изображение <ch2:sec1>

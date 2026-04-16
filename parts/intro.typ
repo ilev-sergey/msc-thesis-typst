@@ -1,7 +1,6 @@
 #import "../lib.typ": *
 #import "../glossarium.typ": gls
 #set heading(numbering: none)
-// #show: fix-indent() // Disabled - fix-indent incompatible with current Typst version
 
 = Введение <intro> // Название и ссылка на него
 

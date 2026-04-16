@@ -1,6 +1,5 @@
 #import "../lib.typ": *
 #part_count.step() // Обновление счетчика разделов
-// #show: fix-indent() // Disabled - fix-indent incompatible with current Typst version
 
 = Оформление различных элементов <ch1>
 

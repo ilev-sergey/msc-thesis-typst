@@ -2,7 +2,6 @@
 // #import "@preview/codly:1.0.0": * // Temporarily disabled - incompatible with current Typst version
 #import "@preview/tablex:0.0.8": *
 #import "@preview/physica:0.9.3": *
-// #import "@preview/indenta:0.0.3": fix-indent // Temporarily disabled - incompatible with current Typst version
 #import "@preview/chemformula:0.1.2": ch
 #import "./glossarium.typ": *
 
@@ -73,7 +72,7 @@
   set par(
     justify: true,
     linebreaks: "optimized",
-    first-line-indent: 2.5em, // Абзацный отступ. Должен быть одинаковым по всему тексту и равен пяти знакам (ГОСТ Р 7.0.11-2011, 5.3.7).
+    first-line-indent: (amount: 2.5em, all: true), // Абзацный отступ. Должен быть одинаковым по всему тексту и равен пяти знакам (ГОСТ Р 7.0.11-2011, 5.3.7).
     leading: 1em, // Полуторный интервал (ГОСТ 7.0.11-2011, 5.3.6)
   )
 

@@ -1,7 +1,7 @@
 [package]
 name = "modern-russian-dissertation"
 version = "0.0.1"
-compiler = "0.11.0"
+compiler = "0.14.2"
 entrypoint = "lib.typ"
 repository = "https://github.com/SergeyGorchakov/russian-phd-thesis-template-typst"
 authors = ["Sergei Gorchakov"]
