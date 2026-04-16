@@ -1,8 +1,30 @@
 #import "../lib.typ": *
+#import "../glossarium.typ": gls
 #set heading(numbering: none)
 // #show: fix-indent() // Disabled - fix-indent incompatible with current Typst version
 
 = Введение <intro> // Название и ссылка на него
+
+#gls("сэ", display: "Сегнетоэлектрическая (СЭ)") память является одним из новых видов памяти, наряду с резистивной памятью (#gls("ReRAM", long: false)), магниторезистивной памятью (#gls("MRAM", long: false)) и памятью с изменением фазового состояния (#gls("PCM", long: false))
+
+Обнаружение @сэ свойств в #ch("HfO2") @bosckeFerroelectricityHafniumOxide2011 --- материале, отлично совместимом с #gls("cmos", long: false) технологией, позволило значительно расширить возможности применения @сэ памяти, а также, что не менее важно, активизировало дальнейшие научные исследования в этой области. В отличие от ранее используемого @pzt, @сэ свойства которого деградируют при толщинах менее #qty(70, "nm") @shaoChallengesRecentAdvances2024, материалы на основе #ch("HfO2") сохраняют свои @сэ свойства вплоть до единиц #unit("nm"), обладая наибольшей величиной остаточной поляризации при толщинах #numrange(6, 8) #unit("nm") @songThicknessEffectFerroelectric2021 @savichevThicknessScalingFerroelectric2025.
+
+Один из наиболее перспективных видов @сэ памяти --- #gls("FeFET", display: "сегнетоэлектрический полевой транзистор (FeFET)") обладает отличным потенциалом к масштабируемости, однако имеет ограниченный #gls("endurance", long: false) из-за наличия дефектов на границе @сэ слоя, приводящего к деградации интерфейса.
+
+Альтернативная классическому @FeFET концепция @сэ памяти --- #gls("FeMFET", display: "FeFET топологии 1T-1C"), состоящая из одного транзистора и одного конденсатора, подключённого к затвору транзистора. Такой подход позволяет избежать наличия интерфейса СЭ--полупроводник и значительно повысить @endurance устройства.
+
+В работе исследуется концепция @FeMFET: проводится анализ влияния размеров составляющих элементов на характеристики устройства, а также оптимизируются рабочие параметры для достижения наилучших характеристик.
+
+// PZT incompatible with CMOS due to ion diffusion of lead atoms, что не позволило внедрить его в тех процессы ниже 130 нм @liaoHfO2basedFerroelectricThin2023
+// lower thicknesses for HZO is better because they stabilize orthorhombic phase due to the higher ratio of surface energy
+
+// раздел про концепции ferroelectric memory
+// раздел про HfO2 vs PZT
+// раздел про ограничения флэш
+// раздел про сравнение ferroelectric memory с другими emerging memory
+=====
+
+
 
 Обзор, введение в тему, место в мировой науке.
 
