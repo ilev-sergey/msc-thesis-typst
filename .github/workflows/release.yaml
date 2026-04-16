@@ -23,12 +23,18 @@ jobs:
           typst compile thesis.typ thesis.pdf \
             --input git-tag=${{ github.ref_name }}
 
+      - name: Get tag message
+        id: tag_message
+        run: |
+          echo "message<<EOF" >> $GITHUB_OUTPUT
+          git tag -l --format='%(contents)' ${{ github.ref_name }} >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
           files: thesis.pdf
           name: ${{ github.ref_name }}
-          body: |
-            Compiled PDF for tag `${{ github.ref_name }}`
+          body: ${{ steps.tag_message.outputs.message }}
           draft: false
           prerelease: ${{ contains(github.ref_name, 'draft') }}
