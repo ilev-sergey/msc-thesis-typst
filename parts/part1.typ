@@ -46,6 +46,11 @@
 
 === Вычисления в памяти
 
+// AI, HBM, SRAM на пластине
+
+
+// The similar problem was in fact already present in GPUs where the reading and writing the register file is the main part of the computation, not the multiplication itself. Похожая проблема уже присутствовала в более ранних версиях GPU от Nvidia, где чтение и запись в регистровый файл (register file) требовало использования большего числа логических вентилей, чем непосредственно само вычисление. Проблема была решена в 2017 году, начиная с микроархитектуры Volta на основе 12 nm ноды, за счёт использования тензорных ядер (tensor cores), в которых за один такт процессора вычисляется целиком матричное произведение, а не отдельная математическая операция. Использование систолических массивов (systolic arrays) вместо классических CPU с архитектурой фон Неймана в качестве специализированных ускорителей для матричных операций позволяет
+
 === Нейроморфные вычисления
 
 // smth like memory bottleneck in von-neuman architecture is one of the most relevant problems in advnancing AI since it is limiting the context length of the models. (Is it about inference?) Using (inference on models with) higher context length requires higher memory bandiwdth which cannot be effectively achieved even with the use of high bandwidth memory (HBM) 
