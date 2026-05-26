@@ -3,7 +3,7 @@
 
 = Энергонезависимая память на основе сегнетоэлектрических материалов <ch1>
 
-При проведении исследований по разработке устройств памяти на основе новых физических принципов важно понимать текущее состояние рынка и используемых в производстве технологий: принципы работы устройств, их характеристики, преимущества и недостатки, а также возможности по их дальнейшему улучшению. Это позволяет критически оценивать уровень полученных разработок, а также понимать какими характеристиками должны обладать устройства на новых физических принципах для их внедрения в производство. 
+При проведении исследований по разработке устройств памяти на основе новых физических принципов важно понимать текущее состояние рынка и используемых в производстве технологий: принципы работы устройств, их характеристики, преимущества и недостатки, а также возможности по их дальнейшему улучшению. Это позволяет критически оценивать уровень полученных разработок, а также понимать какими характеристиками должны обладать устройства на новых физических принципах для их внедрения в производство.
 
 // Учитывая, что исследования в области СЭ памяти в конечном итоге направлены на конечные продукты (устройства памяти), полезным является понимание текущего состояния рынка и реальных действий в области внедрения научных разработок в производство, совершаемых полупроводниковыми компаниями.
 // Несмотря на частое упоминание таких преимуществ различных видов emerging memory, как более простой процесс производства и меньший размер ячейки, стоит понимать что эти преимущества отражают скорее теоретические возможности. На практике, emerging memories на текущий момент отстают от SOTA CMOS технологических процессов (нод) по характерным размерам, а также не имеют отработанных процессов, позволяющих создание памяти с трёхмерной архитектурой и многоуровневыми ячейками (multilevel cell, MLC).
@@ -53,10 +53,10 @@
 
 === Нейроморфные вычисления
 
-// smth like memory bottleneck in von-neuman architecture is one of the most relevant problems in advnancing AI since it is limiting the context length of the models. (Is it about inference?) Using (inference on models with) higher context length requires higher memory bandiwdth which cannot be effectively achieved even with the use of high bandwidth memory (HBM) 
+// smth like memory bottleneck in von-neuman architecture is one of the most relevant problems in advnancing AI since it is limiting the context length of the models. (Is it about inference?) Using (inference on models with) higher context length requires higher memory bandiwdth which cannot be effectively achieved even with the use of high bandwidth memory (HBM)
 
 
-Планарный @FeFET на основе @сэ #HfO2 был продемонстрирован ранее @bosckeFerroelectricityHafniumOxide2011a, так же как и интеграции с #qty(28, "nm") @trentzsch28nmHKMGSuper2016, #gls("SOI", long: false) @dunkelFeFETBasedSuperlowpower2017, FinFET @yanHighSpeedLarge2021 и #gls("GAA", long: false) @huangFerroelectricVerticalGateAllAround2022 процессами. Однако, классическая концепция @FeFET на основе #gls("MFS", display: "металл-СЭ-полупроводник (MFS)") стека обладает серьёзным неустранимым недостатком --- ограниченным #gls("endurance", display: "ресурсом переключений") из-за инжекции заряда из полупроводника в @сэ слой. //TODO: ref
+Планарный @FeFET на основе @сэ #HfO2 был продемонстрирован ранее @bosckeFerroelectricityHafniumOxide2011a, так же как и интеграции с #qty(28, "nm") @trentzsch28nmHKMGSuper2016, #gls("SOI", long: false) @dunkelFeFETBasedSuperlowpower2017, #gls("FinFET", long: false) @yanHighSpeedLarge2021 и #gls("GAA", long: false) @huangFerroelectricVerticalGateAllAround2022 процессами. Однако, классическая концепция @FeFET на основе #gls("MFS", display: "металл-СЭ-полупроводник (MFS)") стека обладает серьёзным неустранимым недостатком --- ограниченным #gls("endurance", display: "ресурсом переключений") из-за инжекции заряда из полупроводника в @сэ слой. //TODO: ref
 Использование промежуточного диэлектрического слоя в #gls("MFIS", long: false) стеке позволяет избежать наличия дефектного интерфейса, однако усугубляет проблему #gls("retention", display: "удержания состояния") из-за увеличения величины деполяризующего поля в @сэ слое.
 // The scalability limitations could be overcome by the realization of high-density 3D-NAND FeFET memories. @florentFirstDemonstrationVertically2017
 
@@ -73,11 +73,11 @@
 // Обзор на разные концепции FeFET (мб не здесь)
 // табличка flash/dram/FefeT/Fram
 // non-volatility/endurance/commercial availability/
-// 
+//
 
-// 
+//
 // явно какие концепции ferroelectric где могут быть применены
-// 
+//
 
 // Здесь и далее аббревиатура RAM используется как часть общепринятого названия видов памяти, несмотря на то, что дословное значение --- память с произвольным доступом, отражает скорее используемую архитектуру, а не физический принцип работы на уровне единичной ячейки памяти. @hellenbrandProgressEmergingNonvolatile2024
 

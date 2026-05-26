@@ -2,29 +2,19 @@
 
 #let acronyms-entries = (
   (
-    key: "si",
-    short: "СИ",
-    long: "Система интернациональная",
-  ),
-  (
-    key: "ацп",
-    short: "АЦП",
-    long: "Аналого-Цифровой Преобразователь",
-  ),
-  (
     key: "сэ",
     short: "СЭ",
     long: "сегнетоэлектрический (-ая, -ое, -ричество)",
   ),
   (
-    key: "pzt",
+    key: "PZT",
     short: "PZT",
     long: ch("Pb[Zr_x Ti_(1-x)]O_3"),
   ),
   (
-    key: "cmos",
+    key: "CMOS",
     short: "CMOS",
-    long: "Complementary metal–oxide–semiconductor",
+    long: "Complementary metal-oxide-semiconductor, комплементарная структура металл-оксид-полупроводник",
   ),
   (
     key: "FeFET",
@@ -59,12 +49,17 @@
   (
     key: "SOI",
     short: "SOI",
-    long: "Silicon on Insulator, кремний на изоляторе",
+    long: "Silicon-on-Insulator, кремний на изоляторе",
   ),
   (
     key: "GAA",
     short: "GAA",
-    long: "Gate-All-Around, затвор со всех сторон",
+    long: "Gate-All-Around, затвор со всех сторон --- технология, используемая начиная с ноды 3 нм",
+  ),
+  (
+    key: "FinFET",
+    short: "FinFET",
+    long: "Fin Field-Effect Transistor --- технология, используемая в нодах от 22 нм до 5 нм",
   ),
   (
     key: "MFS",
