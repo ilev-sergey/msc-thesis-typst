@@ -235,3 +235,4 @@
 }
 
 #let HfO2 = ch("HfO2")
+#let SiO2 = ch("SiO2")
