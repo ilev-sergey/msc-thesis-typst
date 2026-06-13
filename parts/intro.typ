@@ -13,6 +13,7 @@
 Альтернативная классическому @FeFET концепция @сэ памяти --- #gls("FeMFET", display: "FeFET топологии 1T-1C") --- состоит из одного транзистора и одного конденсатора, подключённого к затвору транзистора. Такой подход позволяет избежать наличия интерфейса @сэ\--полупроводник и значительно повысить @endurance устройства.
 
 В работе исследуется концепция @FeMFET: проводится анализ влияния размеров составляющих элементов на характеристики устройства, а также оптимизируются рабочие параметры для достижения наилучших характеристик.
+// Особое внимание уделяется анализу влияния зарядовых эффектов,
 
 // PZT incompatible with CMOS due to ion diffusion of lead atoms, что не позволило внедрить его в тех процессы ниже 130 нм @mikolajickNextGenerationFerroelectric2021 @mcadams64MbEmbeddedFRAM2004
 // lower thicknesses for HZO is better because they stabilize orthorhombic phase due to the higher ratio of surface energy

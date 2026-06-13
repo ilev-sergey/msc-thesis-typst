@@ -31,6 +31,8 @@
 
 ==== FeFET
 
+// MFS FeFET на основе кремниевого канала фактически не является жизнеспособным с точки зрения внедрения в производство за счёт наличия проблемного интерфейса. Поэтому далее рассматриваются преимущественно MFIS и MFMIS концепции
+
 == MRAM
 
 кратко
@@ -75,6 +77,9 @@
 // табличка flash/dram/FefeT/Fram
 // non-volatility/endurance/commercial availability/
 //
+
+// тут ещё сравнение есть #image("/assets/image.png")
+// fefet, femfet. mram. reram @niSoCLogicCompatible2018
 
 //
 // явно какие концепции ferroelectric где могут быть применены
