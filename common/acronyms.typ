@@ -96,4 +96,24 @@
     short: "ALD",
     long: "Atomic Layer Deposition, Атомно-слоевое осаждение",
   ),
+  (
+    key: "WGFMU",
+    short: "WGFMU",
+    long: "Waveform Generator/Fast Measurement Unit, модуль генератора сигналов и быстродействующего измерителя",
+  ),
+  (
+    key: "HV-SPGU",
+    short: "HV-SPGU",
+    long: "High Voltage Semiconductor Pulse Generator Unit, модуль высоковольтного полупроводникового  импульсного генератора",
+  ),
+  (
+    key: "SMU",
+    short: "SMU",
+    long: "Source/Monitor Unit, источник-измеритель",
+  ),
+  (
+    key: "MFCMU",
+    short: "MFCMU",
+    long: "Multi Frequency Capacitance Measurement Unit, модуль многочастотного измерителя емкости",
+  ),
 )
