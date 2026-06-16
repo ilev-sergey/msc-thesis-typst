@@ -184,11 +184,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284272"
-     inkscape:cx="261.45273"
-     inkscape:cy="54.977551"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="221.74999"
+     inkscape:cy="87.249997"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g11-9"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
@@ -1011,18 +1011,18 @@
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:10px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="186.46828"
-         y="234.02199"
+         y="232.14699"
          id="text4152-0-3-7-4-2-6-9-3-4-3-4-1"
          inkscape:export-xdpi="348.19449"
          inkscape:export-ydpi="348.19449"
          inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\exampleWaveforms.png"><tspan
            sodipodi:role="line"
            x="186.46828"
-           y="234.02199"
+           y="232.14699"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start"
-           id="tspan2-6-5">V <tspan
-   style="font-size:65%;text-align:start;baseline-shift:super;text-anchor:start"
-   id="tspan11">cycle</tspan></tspan></text>
+           id="tspan2-6-5"><tspan
+             style="font-size:65%;text-align:start;baseline-shift:super;text-anchor:start"
+             id="tspan11">     cycle</tspan></tspan></text>
     </g>
     <g
        id="g11-5-4"
@@ -1047,18 +1047,18 @@
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:10px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="186.46828"
-         y="234.02199"
+         y="232.14699"
          id="text4152-0-3-7-4-2-6-9-3-4-3-4-1-2-2"
          inkscape:export-xdpi="348.19449"
          inkscape:export-ydpi="348.19449"
          inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\exampleWaveforms.png"><tspan
            sodipodi:role="line"
            x="186.46828"
-           y="234.02199"
+           y="232.14699"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start"
-           id="tspan2-6-5-8-9">V <tspan
-   style="font-size:65%;text-align:start;baseline-shift:super;text-anchor:start"
-   id="tspan11-8-3">measure</tspan></tspan></text>
+           id="tspan2-6-5-8-9"><tspan
+             style="font-size:65%;text-align:start;baseline-shift:super;text-anchor:start"
+             id="tspan11-8-3">     measure</tspan></tspan></text>
     </g>
     <g
        id="g6-1-10-9-5-2-6-2-3"
@@ -1084,14 +1084,14 @@
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:10px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="183.13255"
-         y="234.02199"
+         y="235.89699"
          id="text4152-0-3-7-4-2-6-9-3-4-3-4-2"
          inkscape:export-xdpi="348.19449"
          inkscape:export-ydpi="348.19449"
          inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\exampleWaveforms.png"><tspan
            sodipodi:role="line"
            x="183.13255"
-           y="234.02199"
+           y="235.89699"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start"
            id="tspan2-6-9">-V<tspan
    style="font-size:65%;baseline-shift:sub"
@@ -1109,7 +1109,7 @@
            x="186.46828"
            y="234.02199"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start"
-           id="tspan2-6-5-4">V <tspan
+           id="tspan2-6-5-4">   <tspan
    style="font-size:65%;text-align:start;baseline-shift:super;text-anchor:start"
    id="tspan11-0">cycle</tspan></tspan></text>
     </g>
@@ -4374,34 +4374,34 @@
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:10px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="186.46828"
-         y="234.02199"
+         y="232.14699"
          id="text16"
          inkscape:export-xdpi="348.19449"
          inkscape:export-ydpi="348.19449"
          inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\exampleWaveforms.png"><tspan
            sodipodi:role="line"
            x="186.46828"
-           y="234.02199"
+           y="232.14699"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start"
-           id="tspan16">V <tspan
-   style="font-size:65%;text-align:start;baseline-shift:super;text-anchor:start"
-   id="tspan15">measure</tspan></tspan></text>
+           id="tspan16"><tspan
+             style="font-size:65%;text-align:start;baseline-shift:super;text-anchor:start"
+             id="tspan15">     measure</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:10px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="323.34329"
-         y="234.022"
+         y="232.147"
          id="text19"
          inkscape:export-xdpi="348.19449"
          inkscape:export-ydpi="348.19449"
          inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\exampleWaveforms.png"><tspan
            sodipodi:role="line"
            x="323.34329"
-           y="234.022"
+           y="232.147"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start"
-           id="tspan19">V <tspan
-   style="font-size:65%;text-align:start;baseline-shift:super;text-anchor:start"
-   id="tspan18">measure</tspan></tspan></text>
+           id="tspan19"><tspan
+             style="font-size:65%;text-align:start;baseline-shift:super;text-anchor:start"
+             id="tspan18">     measure</tspan></tspan></text>
     </g>
     <g
        id="g18"
@@ -4443,18 +4443,18 @@
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:10px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="186.46828"
-         y="234.02199"
+         y="232.14699"
          id="text23"
          inkscape:export-xdpi="348.19449"
          inkscape:export-ydpi="348.19449"
          inkscape:export-filename="C:\Users\scochra6\Google Drive\Public Access\IEEE Paper Example\exampleWaveforms.png"><tspan
            sodipodi:role="line"
            x="186.46828"
-           y="234.02199"
+           y="232.14699"
            style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:start;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start"
-           id="tspan23">V <tspan
-   style="font-size:65%;text-align:start;baseline-shift:super;text-anchor:start"
-   id="tspan22">measure</tspan></tspan></text>
+           id="tspan23"><tspan
+             style="font-size:65%;text-align:start;baseline-shift:super;text-anchor:start"
+             id="tspan22">     measure</tspan></tspan></text>
     </g>
   </g>
 </svg>

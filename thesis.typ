@@ -13,7 +13,7 @@
 // Основные части документа
 #include "./parts/intro.typ"
 #show heading.where(level: 1): set heading(numbering: "Глава 1.")
-#include "./parts/part1.typ"
+// #include "./parts/part1.typ"
 #include "./parts/part2.typ"
 #include "./parts/part3.typ"
 
@@ -46,4 +46,4 @@
 #outline(title: "Список таблиц", target: figure.where(kind: table))
 
 // Приложения
-#include "./parts/appendix.typ"
+// #include "./parts/appendix.typ"
