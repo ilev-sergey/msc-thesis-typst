@@ -1,14 +1,7 @@
 #import "lib.typ": *
 
 // Определение шаблона
-#show: template.with(
-  // Это может быть удалено, если не используется программный код:
-  languages: (
-    rust: (name: "Rust", icon: icon(image("images/brand-rust.svg")), color: rgb("#CE412B")),
-    python: (name: "Python", icon: icon(image("images/brand-python.svg")), color: rgb("#3572A5")),
-  ),
-  logo: image("./images/logo.pdf", width: 100%),
-)
+#show: template.with()
 
 // Основные части документа
 #include "./parts/intro.typ"
